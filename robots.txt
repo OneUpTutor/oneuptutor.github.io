@@ -1,3 +1,9 @@
 User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-admin/admin-ajax.php
+Allow: /*.js
+Allow: /*.css
+Allow: /*.jpg
+Allow: /*.png
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://oneuptutor.github.io/sitemap_index.xml
