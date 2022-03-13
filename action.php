@@ -59,13 +59,13 @@ if(mail($myemail, $subject, $message))
 {
 	$_SESSION['msg']= 'Thank you our representative will contact you soon!';
 	$_SESSION['cls']= 'success';
-	header('Location: https://oneuptutor.github.io/contactus.php?success=1');
+	header('Location: https://oneuptutor.github.io/contactus.html?success=1');
 }
 else
 {
 	$_SESSION['msg']= 'Email not send!';
 	$_SESSION['cls']= 'error';
-	header('Location: https://oneuptutor.github.io/contactus.php?error=1');
+	header('Location: https://oneuptutor.github.io/contactus.html?error=1');
 }
 } 
 /* Redirect visitor to the thank you page */
@@ -91,6 +91,6 @@ function check_input($data, $problem='')
 
 function show_error($myError)
 {
-header('Location: https://oneuptutor.github.io/contactus.php?error=1');
+header('Location: https://oneuptutor.github.io/contactus.html?error=1');
 }
 ?>
