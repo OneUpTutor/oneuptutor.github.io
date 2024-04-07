@@ -6,4 +6,4 @@ Allow: /*.css
 Allow: /*.jpg
 Allow: /*.png
 
-Sitemap: https://oneuptutor.github.io/sitemap_index.xml
+Sitemap: https://oneuptutor.github.io/sitemap.xml
